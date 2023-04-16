@@ -1,10 +1,10 @@
-### A gentle introduction to Policy Search Algorithms — Reinforcement Learning
+# A gentle introduction to Policy Search Algorithms — Reinforcement Learning
 
 To recommend a specific arm I also use the estimated expected value.
 
 There is a whole other class of algorithms that directly work with the representation of the Policy.
 
-### What is a Policy?
+## What is a Policy?
 
 Mapping from states to actions, or S -> Actions probabilities, but in this case, we really have no states. *So far we have not considered any states*. So what would a policy be in this case? It could be just one arm or it could be some kind of probability distribution over the arms.
 
